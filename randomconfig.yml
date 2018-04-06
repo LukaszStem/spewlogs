@@ -1,7 +1,7 @@
-version: '2'
+version: '3'
 services:
   web:
-    build: lukems/python_app:1.0
+    image: lukems/python_app:1.0
     ports:
      - "5000:5000"
   redis:
